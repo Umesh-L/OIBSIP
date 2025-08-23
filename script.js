@@ -149,3 +149,4 @@ function sqrt() {
     const display = document.getElementById('result');
     display.value = Math.sqrt(display.value);
 }
+
