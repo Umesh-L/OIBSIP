@@ -1,0 +1,209 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    display:  flex;
+    justify-content: center;
+    background: linear-gradient(20deg, rgb(6, 2, 37) 10%, rgb(5, 71, 67)50%);
+}
+
+h1 {
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    color:white;
+    margin-right: 250px;
+    text-shadow: 8px 8px black;
+}
+
+h1:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+
+.main-box {
+    width: 25%;
+    box-shadow: 0 0 5px rgb(0, 187, 255), inset 0 0 10px rgb(200, 0, 255);
+    color: white;
+    font-weight: 500;
+    height: 95vh;
+    display: flex;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.box-one {
+    width: 95%;
+    margin-left: 2.3%;
+    border: 1px solid black;
+    height: 92vh;
+    margin-top: 6px;
+    background: linear-gradient(20deg, rgb(72, 117, 102) 10%, rgb(0, 0, 0) 40%);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.box-two {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.box-two>span {
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.box-two>span>small {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.box-two>span>button {
+    width: 75px;
+    height: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding:  1px 3px;
+    outline: none;
+    margin-left: 2px;
+    background-color: rgb(0, 255, 0);
+    box-shadow: 5px 5px rgb(91, 99, 253);
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-two>span>button:hover {
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+
+.box-three {
+    display: flex; 
+    width: 95%;
+    margin-left: 2.5%;
+    flex-direction: column;
+}
+
+.box-three>span {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-three>span>button {
+    width: 90px;
+    margin-top: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 53px;
+    background-color: rgb(255, 162, 0);
+    box-shadow: 5px 5px rgb(255, 0, 102);
+    color: black;
+    font-weight: bold;
+    outline: none;
+    margin-left: 4px;
+    font-size: 27px;
+}
+
+#last-span>button {
+    width: 115px;
+}
+
+.box-three>span>button:hover {
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+
+.box-three>span>small {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.box-one-top {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 29vh; 
+    border: 1px solid black;
+}
+
+#center {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+#box-one-bottom {
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box-one-bottom>button {
+    font-size: 25px;
+    width: 100px;
+    margin-left: 2px;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    background-color: rgb(0, 200, 255);
+    color: black;
+    box-shadow: 5px 5px rgb(229, 255, 0);
+    font-weight: bold;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#box-one-bottom>button:hover {
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+
+.box-one-text {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 4px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+#box-one-middle {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 15vh;
+    margin-top: 4px;
+    border:1px solid black;
+    box-shadow: inset 0 0 8px grey;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#box-one-middle>input[type=text] {
+    font-size: 55px;
+    width: 95%;
+    height: 13vh;
+    border: none;
+    box-shadow: 8px 8px rgb(9, 48, 239);
+    margin-left: 2.5%;
+    margin-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+@media(max-width: 830px) {
+    .main-box {
+        width: 100%;
+    }
+} 
+
+
