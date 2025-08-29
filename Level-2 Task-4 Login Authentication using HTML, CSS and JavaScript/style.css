@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(20deg, rgb(0, 0, 0) 30%, rgb(113, 9, 31)50%);
+  margin: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 200px;
+}
+
+h1:hover {
+    transform:scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.container {
+  background: white;
+  padding: 50px;               
+  border-radius: 16px;
+  width: 480px;                
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+}
+
+.container:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 15px 15px rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 32px;             
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #000000;
+}
+
+input {
+  width: 100%;
+  padding: 18px;               
+  margin: 16px -10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 18px;            
+}
+
+input:hover {
+  border: 2px solid rgb(255, 0, 72);
+  transition: 0.3s ease-in-out;
+  box-shadow: 6px 6px rgb(255, 0, 72);
+}
+
+button {
+  width: 100%;
+  padding: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  box-shadow: 7px 7px rgb(3, 5, 81);
+  transition: 0.3s ease-in-out;
+}
+
+.link {
+  margin-top: 18px;
+  display: block;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+}

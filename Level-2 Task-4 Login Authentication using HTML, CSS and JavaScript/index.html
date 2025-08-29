@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Authentication System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Login Authentication using HTML, CSS and JavaScript <br/><br/> By Umesh.L</h1>
+<div class="container" id="auth-container">
+  <h2 id="form-title">Login</h2>
+  <input type="text" id="username" placeholder="Username" required>
+  <input type="password" id="password" placeholder="Password" required>
+  <button onclick="submitForm()">Login</button>
+  <span class="link" onclick="toggleForm()">Don't have an account? Register</span>
+</div>
+
+<div class="container" id="secure-page" style="display:none;">
+  <h2>Welcome to the Secured Page 🎉</h2>
+  <p>You are logged in successfully.</p>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
